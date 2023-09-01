@@ -1,0 +1,266 @@
+.header{
+    background-color: #2874f0;
+    width: 100%;
+    height: 56px;
+    
+}
+body{
+    margin: 0;
+}
+.logo{
+    padding-top: 10px;
+    margin-left: 200px;
+    float: left;
+}
+.lo{
+    width:75px;
+    height: 20px;
+    
+}
+.exp{
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: inherit;
+    margin-top: -1px;
+    color: white;
+    width:75px;
+    height: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    position: relative;
+    top:-8px
+}
+.plus{
+    color: #ffe500;
+}
+.search{
+   background-color: white;
+   width:546px;
+   height:36px;
+   float: left;
+   margin: 10px;
+   margin-left: 20px; 
+   border-radius: 2px; 
+   float: left;
+}
+.box{
+   margin: 4px;
+   width: 500px;
+   height: 25px; 
+   border: none;
+   font-size: 15px;
+   padding-left: 5px;
+   float: left;
+}
+.glass{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: none;
+    padding: 8px;
+}
+.mag{
+    height: 16px;
+    width: 16px;
+    color: #2874f0;
+}
+.btn{
+    height: 36px;
+    width: 121px;
+    margin: 10px;
+    color:blue;
+    font-weight: bold;
+    margin-left: 50px;
+    background-color: white;
+    border-color: #2874f0;
+}
+.hi img{
+    width: 100%;
+}
+.none{
+    text-decoration: none;
+}
+.sell{
+    font-weight: 600;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    margin: 10px;
+}
+.row{
+    display: flex;
+    justify-content:space-evenly;
+    width: 100%;
+    height: 112px;
+    margin-top: 10px;
+    text-align: center;
+}
+.prop{
+    padding:0px 80px;
+}
+.col{
+    padding: 7px 0px;
+}
+.col img{
+    width:64px;
+    height:64px;
+}
+.col a{
+    text-decoration: none;
+}
+.col h5{
+    margin-top:-5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.fl{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.heading{
+    height: 361px;
+    width:230px;
+    background-color:white;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.left-heading{
+    width: 230px;
+    height:100%;
+}
+.item a{
+    margin-top: 102px;
+    width:100%;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    align-items: center;
+}
+.item button{
+    background-color: #2874f0;
+    height: 38.2px;
+    width: 95.65px;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 2px;
+    margin-top: 25px;
+}
+.product{
+    height: 100%;
+    width: calc(100%-230px);
+    display: flex;
+    overflow-x: auto;
+    align-items: baseline;
+}
+.products{
+    width:232px;
+    height: 100%;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.products img{
+    max-width: 200px;
+    max-height: 200px;
+}
+.products-head{
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.products-price{
+    margin-top: 12px;
+    font-size: 16px;
+    color:#388e3c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.products-typ{
+    opacity: 0.6;
+    margin-top: 12px;
+    font-weight: 300;
+    font-size: 12px;   
+    font-family: Arial, Helvetica, sans-serif;
+}
+.elim{
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/278/278/image/7593e7b6640822c1.jpg?q=90);
+    width: 230px;
+    background-position: 0px bottom;
+    background-repeat: no-repeat;
+}
+.toim{
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/278/278/image/b84f1c22cce1a6a3.jpg?q=90);
+    width: 230px;
+    background-position: 0px bottom;
+    background-repeat: no-repeat;
+}
+.faim{
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/278/278/image/31d46a8fd93eeedd.jpg?q=90);
+    width: 230px;
+    background-position: 0px bottom;
+    background-repeat: no-repeat;
+}
+.hoim{
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/278/278/image/898b527fdf29b17a.jpg?q=90);
+    width: 230px;
+    background-position: 0px bottom;
+    background-repeat: no-repeat;
+}
+.det{
+    margin-left: 50px;
+    height:auto;
+    font-family: Roboto,Arial,sans-serif;
+    color: #878787;
+    font-size: 11px;
+}
+.foot{
+    background-color: #172337;
+}
+.imp{
+    width: 90%!important;
+    padding-top: 40px;
+    display:flex;
+    text-align: left;
+    justify-content: space-between;
+}
+.set{
+    padding-left: 65px;
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+}
+.set a{
+    text-decoration: none;
+    color: white;
+    line-height: 2;
+    cursor:pointer
+}
+.set a:hover{
+    text-decoration: underline;
+}
+.address{
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+}
+.add{
+    color: white;
+    font-style: normal;
+    font-size: 12px;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 0.5;
+}
